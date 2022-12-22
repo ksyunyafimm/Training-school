@@ -1,8 +1,64 @@
 <div class="container">
-  <div>
+  <div class="questions">
     <div>
       <img src="assets/illustration.png">
     </div>
-    <div></div>
+    <div class="form-contact mb-3">
+      <h6>Any questions?</h6>
+      <h1>Drop us a line</h1>
+      <form class="form-inputs" [formGroup]="form" (ngSubmit)="submit()">
+        <div class="form-container">
+          <label for="firstName" class="form-label">First Name*</label>
+          <input type="text" id="firstName" class="form-control" formControlName="firstName">
+          <div class="validation" *ngIf="form.get('firstName').invalid && form.get('firstName').touched">
+            <small *ngIf="form.get('firstName').errors['required']">Name field cannot be empty</small>
+            <small *ngIf="form.get('firstName').errors['minlength']">Please enter minimum 2 symbols</small>
+          </div>
+        </div>
+        <div class="form-container">
+          <label for="lastName" class="form-label">Last Name*</label>
+          <input type="text" id="lastName" class="form-control" formControlName="lastName">
+          <div class="validation" *ngIf="form.get('lastName').invalid && form.get('lastName').touched">
+            <small *ngIf="form.get('lastName').errors['required']">Last name field cannot be empty</small>
+            <small *ngIf="form.get('lastName').errors['minlength']">Please enter minimum 2 symbols</small>
+          </div>
+        </div>
+        <div class="form-container">
+          <label for="email" class="form-label">Email*</label>
+          <input type="email" id="email" class="form-control" formControlName="email">
+          <div class="validation" *ngIf="form.get('email').invalid && form.get('email').touched">
+            <small *ngIf="form.get('email').errors['required']">Email field cannot be empty</small>
+            <small *ngIf="form.get('email').errors['email']">Please enter a valid email</small>
+          </div>
+        </div>
+        <div class="form-container">
+          <label for="phone" class="form-label">Phone</label>
+          <input type="text" class="form-control" id="phone" formControlName="phone">
+        </div>
+        <div formGroupName="adress" class="form-adress">
+          <label for="country" class="form-label">Country*</label>
+          <select class="form-select" formControlName="country">
+            <option value="us">USA</option>
+            <option value="ca">Canada</option>
+            <option value="ru">Russia</option>
+            <option value="uz">Uzbekistan</option>
+            <option value="fr">France</option>
+          </select>
+          <input type="text" class="form-control" id="country" formControlName="city">
+          <button class="btn btn-outline-primary" type="button" (click)="setCapital()">Choose capital</button>
+        </div>
+        <div class="message">
+          <label for="message" class="form-label">Message*</label>
+          <textarea id="message" formControlName="message"></textarea>
+        </div>
+        <div class="form-save">
+          <div class="mb-3 form-check">
+          <input type="checkbox" id="checkbox" class="form-check-input" formControlName="checkbox">
+          <label for="checkbox" class="form-check-label">I agree to receive communications from Createx Online School</label>
+        </div>
+          <button type="submit" class="btn btn-primary" [disabled]="form.invalid" >Send message</button>
+        </div>
+      </form>
+    </div>
   </div>
 </div>

@@ -1,4 +1,86 @@
+.questions{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 img{
   max-width: 435px;
   max-height: 481px;
+}
+.form-contact{
+  width: 705px;
+  h1{
+    width: 283px;
+    height: 60px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: left;
+    color: #1E212C;
+  }
+  h6{
+    width: 247px;
+    height: 24px;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+
+  }
+}
+input{
+  &.ng-invalid.ng-touched{
+    border: 1px solid red;
+  }
+}
+.validation{
+  color: red;
+}
+.form-inputs{
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-container{
+  width: 300px;
+  height: 86px;
+  margin: 0px 25px 0px 0;
+}
+textarea{
+  display: block;
+  border-radius: 5px;
+  overflow: auto;
+  resize: none;
+  width: 100%;
+  height: 80%;
+}
+.message{
+  width: 705px;
+  height: 160px;
+  margin-top: 10px;
+}
+.form-save{
+  display: flex;
+  margin-top: 10px;
+  width: 705px;
+  justify-content: space-between;
+  label{
+    width: 300px;
+  }
+
+}
+.form-adress{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+   input{
+     margin: 5px 0;
+   }
 }
