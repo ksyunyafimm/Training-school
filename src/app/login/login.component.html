@@ -1,0 +1,37 @@
+<div class="signin-container">
+  <div class="signin-content">
+    <h1>Sign in</h1>
+    <p class="signin-text">Sign in to your account using
+      email and password provided during registration.</p>
+    <div>
+      <form class="signin-form" [formGroup]="loginForm" (ngSubmit)="submit()">
+        <div>
+          <label for="signin-email" class="form-label">Email</label>
+          <input type="email" id="signin-email" class="form-control" formControlName="signinEmail">
+          <div class="validation" *ngIf="loginForm.get('signinEmail')?.invalid && loginForm.get('signinEmail')?.touched">
+            <small>Email is required</small>
+          </div>
+        </div>
+        <div>
+          <label for="signin-password" class="form-label">Password</label>
+          <input type="password" id="signin-password" class="form-control" formControlName="signinPassword">
+          <div class="validation" *ngIf="loginForm.get('signinPassword')?.invalid && loginForm.get('signinPassword')?.touched">
+            <small>Minimum eight characters, at least one letter and one number</small>
+          </div>
+        </div>
+        <div class="signin-checkbox">
+          <div>
+            <input type="checkbox" id="signin-confirm" class="form-check-input" formControlName="signinConfirm">
+            <label for="signin-confirm" class="form-check-label ">Keep me signed in</label>
+          </div>
+          <div>
+            <p class="colored-text">Forgot password?</p>
+          </div>
+        </div>
+        <button type="submit" class="signin-button" [disabled]="loginForm.invalid ">Sign in</button>
+      </form>
+      <p class="signin-newaccount">Don't have an account? <a>Sign up</a></p>
+    </div>
+  </div>
+
+</div>

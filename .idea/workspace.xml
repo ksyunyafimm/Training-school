@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="497dfd1e-ddad-4ff5-a073-b61490ba8171" name="Changes" comment="new project form">
+      <change afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/error404/error404.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/error404/error404.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/error404/error404.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/guards/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/login.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/servises/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/servises/authttp.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/sign-up/sign-up.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/sign-up/sign-up.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/sign-up/sign-up.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/contact-form/contact-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact-form/contact-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact-form/contact-form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact-form/contact-form.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact-form/contact-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact-form/contact-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,23 +42,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
-    <property name="ts.external.directory.path" value="C:\Учимся снова\magazine\Training-school\node_modules\typescript\lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/LearnUp/Angular/Выпускной проект/videopage",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Учимся снова\\magazine\\Training-school\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Учимся снова\magazine\src\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server">
+  <component name="RunManager" selected="npm.start-fake-db">
     <configuration name="Tests (magazine)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/karma.conf.js" />
       <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
@@ -68,6 +80,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start-fake-db" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start-fake-db" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start-fake-db" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,6 +106,8 @@
       <updated>1671127421928</updated>
       <workItem from="1671127423428" duration="6988000" />
       <workItem from="1671631740314" duration="21899000" />
+      <workItem from="1671808528303" duration="18148000" />
+      <workItem from="1672918983868" duration="18083000" />
     </task>
     <servers />
   </component>
@@ -98,6 +127,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Training-school" />
+      <path value="$PROJECT_DIR$/testproject" />
+    </ignored-roots>
     <MESSAGE value="new project form" />
     <option name="LAST_COMMIT_MESSAGE" value="new project form" />
   </component>

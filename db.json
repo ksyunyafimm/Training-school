@@ -1,0 +1,14 @@
+{
+  "person": [
+  {
+    "id" : 1,
+    "login": "admin111@mail.ru",
+    "password": "1234admin"
+  },
+    {
+      "id" : 2,
+      "login": "admin@mail.ru",
+      "password": "1admin"
+    }
+]
+}
