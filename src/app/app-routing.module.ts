@@ -6,9 +6,10 @@ import {ContactFormComponent} from "./contact-form/contact-form.component";
 import {Error404Component} from "./error404/error404.component";
 import {SignUpComponent} from "./sign-up/sign-up.component";
 import {AuthGuard} from "./guards/auth.guard";
+import {HomeComponent} from "./home/home.component";
 
 const routes: Routes = [
-  {path: '', component:AppComponent},
+  {path: '', component:HomeComponent},
   {path: 'contact-form', component: ContactFormComponent,
   canActivate:[AuthGuard],
   canDeactivate:[AuthGuard]},
