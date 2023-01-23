@@ -2,7 +2,7 @@
   <div id="block1">
     <div class="content">
       <div>
-        <button class="play-btn"><img src="assets/hover.svg"> Play showreel</button>
+        <button class="play-btn"><img src="assets/hover.svg" alt="play"> Play showreel</button>
         <h1>Enjoy studying <br> with Createx <br> Online Courses</h1>
         <button class="about-us-btn">About us</button>
         <button class="explore-btn">Explore courses</button>
@@ -69,7 +69,7 @@
     <div class="courses-block">
       <ng-container *ngFor="let course of coursesMap">
       <div class="courses-container">
-        <img src="{{course.img}}">
+        <img src="{{course.img}}" alt="author">
         <div class="course-info">
           <p [ngClass]="{green: course.type === 'Marketing', blue: course.type === 'Management', orange: course.type === 'HR & Recruiting', purple: course.type === 'Design' }" >{{course.type}}</p>
           <h2>{{course.name}}</h2>
@@ -92,41 +92,41 @@
         </div>
         <div class="tabs">
           <input type="radio" name="tabs" id="tabone" checked="checked">
-          <label for="tabone"><img src="assets/benefits/Star.svg">Experienced Tutors</label>
+          <label for="tabone"><img src="assets/benefits/Star.svg" alt="star">Experienced Tutors</label>
           <div class="tab">
             <div class="benefits-text">
                           <h3>Only practicing tutors</h3>
                           <p>Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
                         </div>
-                        <img src="assets/illustration-benefits.jpg">
+                        <img src="assets/illustration-benefits.jpg" alt="practice">
           </div>
           <input type="radio" name="tabs" id="tabtwo">
-          <label for="tabtwo"><img src="assets/benefits/like.svg">Feedback & Support</label>
+          <label for="tabtwo"><img src="assets/benefits/like.svg" alt="like">Feedback & Support</label>
           <div class="tab">
             <div class="benefits-text">
             <h3>Feedback & Support</h3>
             <p>Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
           </div>
-          <img src="assets/illustration-benefits.jpg">
+          <img src="assets/illustration-benefits.jpg" alt="practice">
         </div>
 
           <input type="radio" name="tabs" id="tabthree">
-          <label for="tabthree"><img src="assets/benefits/Layouts.svg">24/7 Online Library</label>
+          <label for="tabthree"><img src="assets/benefits/Layouts.svg" alt="layouts">24/7 Online Library</label>
           <div class="tab">
             <div class="benefits-text">
               <h3>24/7</h3>
               <p>Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
             </div>
-            <img src="assets/illustration-benefits.jpg">
+            <img src="assets/illustration-benefits.jpg" alt="illustration">
           </div>
           <input type="radio" name="tabs" id="tabfour">
-          <label for="tabfour"><img src="assets/benefits/Chat.svg">Community</label>
+          <label for="tabfour"><img src="assets/benefits/Chat.svg" alt="chat">Community</label>
           <div class="tab">
             <div class="benefits-text">
               <h3>Community</h3>
               <p>Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
             </div>
-            <img src="assets/illustration-benefits.jpg">
+            <img src="assets/illustration-benefits.jpg" alt="illustration">
           </div>
         </div>
     </div>
@@ -179,6 +179,7 @@
           <h3>Best tutors are all here</h3>
           <h2>Meet our team</h2>
         </div>
+
       </div>
       <div class="slider2">
         <div class="heading align-center">
@@ -189,3 +190,16 @@
     </div>
   </div>
 </div>
+<div id="block8">
+  <div class="wrap">
+    <div class="head8">
+      <div class="heading">
+        <h3>Best tutors are all here</h3>
+        <h2>Meet our team</h2>
+      </div>
+      <button>Go to blog</button>
+    </div>
+
+  </div>
+</div>
+
