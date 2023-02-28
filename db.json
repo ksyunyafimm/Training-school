@@ -6,7 +6,9 @@
     "name": "The Ultimate Google Ads Training Course",
     "price": "$100",
     "author": "Jerome Bell",
-    "img": "assets/courses/image1.jpg"
+    "img": "assets/courses/image1.jpg",
+    "img_course": "assets/courses/about-page/courses/marketing.jpg",
+    "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
 
   },
     {
@@ -17,7 +19,9 @@
       "author": "Leslie Alexander Li",
       "qualification": "Founder and CEO",
       "img": "assets/courses/image2.jpg",
-      "img_author": "assets/team/marvin.png"
+      "img_author": "assets/team/marvin.png",
+      "img_course": "assets/courses/about-page/courses/hr.jpg",
+      "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
     },
     {
       "id" : 3,
@@ -27,7 +31,9 @@
       "author": "Dianne Russell",
       "qualification": "Founder and CEO",
       "img": "assets/courses/image3.jpg",
-      "img_author": "assets/team/dianne.png"
+      "img_author": "assets/team/dianne.png",
+      "img_course": "assets/courses/about-page/courses/managment.jpg",
+      "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
     },
     {
       "id" : 4,
@@ -35,9 +41,9 @@
       "name": "Product Management Fundamentals",
       "price": "$480",
       "author": "Marvin McKinney",
-      "qualification": "PM, Curator of Management Course",
       "img": "assets/courses/image4.jpg",
-      "img_author": "assets/team/marvin.png"
+      "img_course": "assets/courses/about-page/courses/managment.jpg",
+      "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
     },
     {
       "id" : 5,
@@ -45,9 +51,9 @@
       "name": "Brand Management & PR Communications",
       "price": "$530",
       "author": "Kristin Watson",
-      "qualification": "Marketer, Curator of Marketing Course",
       "img": "assets/courses/image5.jpg",
-      "img_author": "assets/team/kristin.png"
+      "img_course": "assets/courses/about-page/courses/development.jpg",
+      "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
     },
     {
       "id" : 6,
@@ -55,9 +61,9 @@
       "name": "Graphic Design Basic",
       "price": "$500",
       "author": "Guy Hawkins",
-      "qualification": "Marketer",
       "img": "assets/courses/image6.jpg",
-      "img_author": "assets/team/jerome.png"
+      "img_course": "assets/courses/about-page/courses/design.jpg",
+      "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
     }
 ],
   "reviews": [
