@@ -6,9 +6,7 @@
     "name": "The Ultimate Google Ads Training Course",
     "price": "$100",
     "author": "Jerome Bell",
-    "qualification": "Founder and Program Director",
-    "img": "assets/courses/image1.jpg",
-    "img_author": "assets/team/jerome.png"
+    "img": "assets/courses/image1.jpg"
 
   },
     {
@@ -94,6 +92,56 @@
       "course": "PHP, Course",
       "img": "assets/review/review-people.png"
 
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "author": "Jerome Bell",
+      "qualification": "Founder and Program Director",
+      "img_author": "assets/team/jerome.png"
+    },
+    {
+      "id": 2,
+      "author": "Leslie Alexander Li",
+      "qualification": "Curator of HR & Recruting Course",
+      "img_author": "assets/team/leslie.png"
+    },
+    {
+      "id": 3,
+      "author": "Dianne Russell",
+      "qualification": "Founder and CEO",
+      "img_author": "assets/team/dianne.png"
+    },
+    {
+      "id": 4,
+      "author": "Marvin McKinney",
+      "qualification": "PM, Curator of Management Course",
+      "img_author": "assets/team/marvin.png"
+    },
+    {
+      "id": 5,
+      "author": "Kristin Watson",
+      "qualification": "Marketer, Curator of Marketing Course",
+      "img_author": "assets/team/kristin.png"
+    },
+    {
+      "id": 6,
+      "author": "Kathryn Murphy",
+      "qualification": "Analyst and Marketing specialist",
+      "img_author": "assets/team/kathryn.png"
+    },
+    {
+      "id": 7,
+      "author": "Brooklyn Simmons",
+      "qualification": "Curator of Development Course",
+      "img_author": "assets/team/brooklyn.png"
+    },
+    {
+      "id": 8,
+      "author": "Cody Fisher",
+      "qualification": "UX Designer, Curator of Design Course",
+      "img_author": "assets/team/cody.png"
     }
   ]
 }

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Courses, CourseshttpService} from "../servises/courseshttp.service";
 import {CommentsService, Reviews} from "../servises/comments.service";
+import {Team, TeamService} from "../servises/team.service";
 
 @Component({
   selector: 'app-home',
@@ -10,11 +11,12 @@ import {CommentsService, Reviews} from "../servises/comments.service";
 export class HomeComponent implements OnInit {
   coursesMap: Courses[]=[]
   reviewsMap: Reviews[]=[]
-  headText: string
+  teamMap: Team[]=[]
   description: string
   currentIndex: number = 0
   constructor(private coursesService: CourseshttpService,
-              private  commentsService: CommentsService) {
+              private  commentsService: CommentsService,
+              private teamService: TeamService) {
 
   }
 
@@ -24,6 +26,9 @@ export class HomeComponent implements OnInit {
    )
     this.commentsService.getCommentView().subscribe((com:any)=>
       this.reviewsMap=com
+    )
+    this.teamService.getTeamView().subscribe((team:any)=>
+    this.teamMap=team
     )
   }
   onClickNextButton(){

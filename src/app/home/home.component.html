@@ -188,7 +188,7 @@
           <h2>Meet our team</h2>
         </div>
         <div class="author-card">
-          <ng-container *ngFor="let author of coursesMap; let i=index">
+          <ng-container *ngFor="let author of teamMap; let i=index">
             <div *ngIf="i<4" class="author-slider">
               <div class="back-img">
                 <img src="{{author.img_author}}" alt="author">
@@ -236,17 +236,3 @@
     </div>
   </div>
 
-<div id="block8">
-  <div class="wrap">
-    <div class="content-block-3">
-      <div class="heading align-center">
-        <h3>Don’t miss anything</h3>
-        <h2>Subscribe to the Createx School <br>announcements</h2>
-      </div>
-      <div class="subscribe-content">
-        <input placeholder="Your working email" class="subscribe-input">
-        <button class="subscribe">Subscribe</button>
-      </div>
-    </div>
-  </div>
-</div>
