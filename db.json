@@ -5,48 +5,95 @@
     "type": "Marketing",
     "name": "The Ultimate Google Ads Training Course",
     "price": "$100",
-    "author": "by Jerome Bell",
-    "img": "assets/courses/image1.jpg"
+    "author": "Jerome Bell",
+    "qualification": "Founder and Program Director",
+    "img": "assets/courses/image1.jpg",
+    "img_author": "assets/team/jerome.png"
+
   },
     {
       "id" : 2,
       "type": "HR & Recruiting",
       "name": "HR  Management and Analytics",
       "price": "$200",
-      "author": "by Leslie Alexander Li",
-      "img": "assets/courses/image2.jpg"
+      "author": "Leslie Alexander Li",
+      "qualification": "Founder and CEO",
+      "img": "assets/courses/image2.jpg",
+      "img_author": "assets/team/marvin.png"
     },
     {
       "id" : 3,
       "type": "Management",
       "name": "Business Development Management",
       "price": "$400",
-      "author": "by Dianne Russell",
-      "img": "assets/courses/image3.jpg"
+      "author": "Dianne Russell",
+      "qualification": "Founder and CEO",
+      "img": "assets/courses/image3.jpg",
+      "img_author": "assets/team/dianne.png"
     },
     {
       "id" : 4,
       "type": "Management",
       "name": "Product Management Fundamentals",
       "price": "$480",
-      "author": "by Marvin McKinney",
-      "img": "assets/courses/image4.jpg"
+      "author": "Marvin McKinney",
+      "qualification": "PM, Curator of Management Course",
+      "img": "assets/courses/image4.jpg",
+      "img_author": "assets/team/marvin.png"
     },
     {
       "id" : 5,
       "type": "Marketing",
       "name": "Brand Management & PR Communications",
       "price": "$530",
-      "author": "by Kristin Watson",
-      "img": "assets/courses/image5.jpg"
+      "author": "Kristin Watson",
+      "qualification": "Marketer, Curator of Marketing Course",
+      "img": "assets/courses/image5.jpg",
+      "img_author": "assets/team/kristin.png"
     },
     {
       "id" : 6,
       "type": "Design",
       "name": "Graphic Design Basic",
       "price": "$500",
-      "author": "by Guy Hawkins",
-      "img": "assets/courses/image6.jpg"
+      "author": "Guy Hawkins",
+      "qualification": "Marketer",
+      "img": "assets/courses/image6.jpg",
+      "img_author": "assets/team/jerome.png"
     }
-]
+],
+  "reviews": [
+    {
+      "id": 1,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Justo, amet lectus quam viverra mus lobortis fermentum amet, eu.Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+      "name": "Eleanor Pena",
+      "course": "Position, Course",
+      "img": "assets/review/review-people.png"
+
+    },
+    {
+      "id": 2,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Justo, amet lectus quam viverra mus lobortis fermentum amet, eu.Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+      "name": "Kristian Pena",
+      "course": "UI, Course",
+      "img": "assets/review/review-people.png"
+
+    },
+    {
+      "id": 3,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Justo, amet lectus quam viverra mus lobortis fermentum amet, eu.Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+      "name": "Louise Pena",
+      "course": "Web, Course",
+      "img": "assets/review/review-people.png"
+
+    },
+    {
+      "id": 4,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Justo, amet lectus quam viverra mus lobortis fermentum amet, eu.Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.",
+      "name": "Ilian Pena",
+      "course": "PHP, Course",
+      "img": "assets/review/review-people.png"
+
+    }
+  ]
 }

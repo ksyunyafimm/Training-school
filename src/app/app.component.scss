@@ -63,7 +63,136 @@ li{
   display: flex;
   align-items: center;
 }
-.login{
+.login {
   border: none;
   background: white;
+}
+#footer{
+  width: 1920px;
+  height: 396px;
+  background: #1E212C;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  gap: 80px;
+  h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0;
+
+    li{
+
+      opacity: 0.6;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      a{
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  img{
+    width: 130px;
+    height: 22px;
+    margin-bottom: 24px;
+  }
+  p{
+    width: 279px;
+    color: #FFFFFF;
+    opacity: 0.6;
+  }
+}
+.footer-site-map{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 80px;
+  height: 198px;
+}
+.footer-courses{
+  width: 110px;
+  height: 198px;
+}
+.footer-contact{
+  width: 157px;
+  height: 96px;
+}
+.footer-subscribe{
+  width: 286px;
+  height: 126px;
+  p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 286px;
+    height: 30px;
+
+}
+}
+.footer-email-input{
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 286px;
+  height: 36px;
+}
+.footer-input{
+  width: 230px;
+  background:transparent;
+  border: none;
+  height: 36px;
+}
+.footer-input:focus{
+  color: #FFFFFF;
+  border: none;
+}
+.footer-input-button{
+  background: transparent;
+  border: none;
+  width: 46px;
+  height: 36px;
+}
+.footer-copyright{
+  height: 58px;
+  background: #FFFFFF;
+  opacity: 0.05;
+  position: relative;
+  bottom: -58px;
+
+}
+.copyright-text{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  p{
+    width: 288px;
+    height: 18px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    opacity: 1;
+    position: relative;
+    z-index: 5;
+  }
 }

@@ -7,7 +7,9 @@ import {Observable} from "rxjs";
    name: string,
    price: string,
    author: string,
-   img: string
+   qualification: string,
+   img: string,
+   img_author: string
  }
 @Injectable({
   providedIn: 'root'

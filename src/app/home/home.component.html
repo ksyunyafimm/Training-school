@@ -1,61 +1,60 @@
-
-  <div id="block1">
-    <div class="content">
-      <div>
-        <button class="play-btn"><img src="assets/hover.svg" alt="play"> Play showreel</button>
-        <h1>Enjoy studying <br> with Createx <br> Online Courses</h1>
-        <button class="about-us-btn">About us</button>
-        <button class="explore-btn">Explore courses</button>
-      </div>
-
-
-        <img src="assets/illustration.svg" alt="banner">
-
-    </div>
-
+<div id="block1">
+  <div class="content">
     <div>
-      <ul class="list-block1">
-        <li>
-          1200
-          <span>Students graduated</span>
-        </li>
-        <li>
-          84
-          <span>Completed courses</span>
-        </li>
-        <li>
-          16
-          <span>Qualified tutors</span>
-        </li>
-        <li>
-          5
-          <span>Years of experience</span>
-        </li>
-      </ul>
+      <button class="play-btn"><img src="assets/hover.svg" alt="play"> Play showreel</button>
+      <h1>Enjoy studying <br> with Createx <br> Online Courses</h1>
+      <button class="about-us-btn">About us</button>
+      <button class="explore-btn">Explore courses</button>
     </div>
+
+
+    <img src="assets/illustration.svg" alt="banner">
+
   </div>
 
+  <div>
+    <ul class="list-block1">
+      <li>
+        1200
+        <span>Students graduated</span>
+      </li>
+      <li>
+        84
+        <span>Completed courses</span>
+      </li>
+      <li>
+        16
+        <span>Qualified tutors</span>
+      </li>
+      <li>
+        5
+        <span>Years of experience</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
 <div id="block2">
- <div class="wrap">
-   <div class="content-block2">
-     <img src="assets/about-image.jpg" alt="about">
-     <div class="checklist">
-       <div class="heading">
-         <h3>Who we are</h3>
-         <h2>Why Createx?</h2>
-       </div>
-       <ul>
-         <li>A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
-         <li>Vulputate placerat amet pulvinar lorem nisl.</li>
-         <li>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
-         <li>Etiam duis lobortis in fames ultrices commodo nibh.</li>
-         <li>Tincidunt sagittis neque sem ac eget.</li>
-         <li>Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</li>
-       </ul>
-       <button class="checklist-btn">More about us</button>
-     </div>
-   </div>
- </div>
+  <div class="wrap">
+    <div class="content-block2">
+      <img src="assets/about-image.jpg" alt="about">
+      <div class="checklist">
+        <div class="heading">
+          <h3>Who we are</h3>
+          <h2>Why Createx?</h2>
+        </div>
+        <ul>
+          <li>A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
+          <li>Vulputate placerat amet pulvinar lorem nisl.</li>
+          <li>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
+          <li>Etiam duis lobortis in fames ultrices commodo nibh.</li>
+          <li>Tincidunt sagittis neque sem ac eget.</li>
+          <li>Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</li>
+        </ul>
+        <button class="checklist-btn">More about us</button>
+      </div>
+    </div>
+  </div>
 </div>
 <div id="block3">
   <div class="wrap">
@@ -68,109 +67,118 @@
     </div>
     <div class="courses-block">
       <ng-container *ngFor="let course of coursesMap">
-      <div class="courses-container">
-        <img src="{{course.img}}" alt="author">
-        <div class="course-info">
-          <p [ngClass]="{green: course.type === 'Marketing', blue: course.type === 'Management', orange: course.type === 'HR & Recruiting', purple: course.type === 'Design' }" >{{course.type}}</p>
-          <h2>{{course.name}}</h2>
-          <p><span>{{course.price}}</span> | {{course.author}}</p>
-        </div>
+        <div class="courses-container">
+          <img src="{{course.img}}" alt="author">
+          <div class="course-info">
+            <p
+              [ngClass]="{green: course.type === 'Marketing', blue: course.type === 'Management', orange: course.type === 'HR & Recruiting', purple: course.type === 'Design' }">{{course.type}}</p>
+            <h2>{{course.name}}</h2>
+            <p><span>{{course.price}}</span> | by {{course.author}}</p>
+          </div>
 
-      </div>
+        </div>
       </ng-container>
 
     </div>
 
   </div>
 </div>
-  <div id="block4">
-    <div class="wrap">
-      <div class="benefits">
-        <div class="heading align-center">
-          <h3>Our benefits</h3>
-          <h2>That’s how we do it</h2>
-        </div>
-        <div class="tabs">
-          <input type="radio" name="tabs" id="tabone" checked="checked">
-          <label for="tabone"><img src="assets/benefits/Star.svg" alt="star">Experienced Tutors</label>
-          <div class="tab">
-            <div class="benefits-text">
-                          <h3>Only practicing tutors</h3>
-                          <p>Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
-                        </div>
-                        <img src="assets/illustration-benefits.jpg" alt="practice">
+<div id="block4">
+  <div class="wrap">
+    <div class="benefits">
+      <div class="heading align-center">
+        <h3>Our benefits</h3>
+        <h2>That’s how we do it</h2>
+      </div>
+      <div class="tabs">
+        <input type="radio" name="tabs" id="tabone" checked="checked">
+        <label for="tabone"><img src="assets/benefits/Star.svg" alt="star">Experienced Tutors</label>
+        <div class="tab">
+          <div class="benefits-text">
+            <h3>Only practicing tutors</h3>
+            <p>Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras
+              massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam
+              sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
           </div>
-          <input type="radio" name="tabs" id="tabtwo">
-          <label for="tabtwo"><img src="assets/benefits/like.svg" alt="like">Feedback & Support</label>
-          <div class="tab">
-            <div class="benefits-text">
+          <img src="assets/illustration-benefits.jpg" alt="practice">
+        </div>
+        <input type="radio" name="tabs" id="tabtwo">
+        <label for="tabtwo"><img src="assets/benefits/like.svg" alt="like">Feedback & Support</label>
+        <div class="tab">
+          <div class="benefits-text">
             <h3>Feedback & Support</h3>
-            <p>Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
+            <p>Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras
+              massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam
+              sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
           </div>
           <img src="assets/illustration-benefits.jpg" alt="practice">
         </div>
 
-          <input type="radio" name="tabs" id="tabthree">
-          <label for="tabthree"><img src="assets/benefits/Layouts.svg" alt="layouts">24/7 Online Library</label>
-          <div class="tab">
-            <div class="benefits-text">
-              <h3>24/7</h3>
-              <p>Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
-            </div>
-            <img src="assets/illustration-benefits.jpg" alt="illustration">
+        <input type="radio" name="tabs" id="tabthree">
+        <label for="tabthree"><img src="assets/benefits/Layouts.svg" alt="layouts">24/7 Online Library</label>
+        <div class="tab">
+          <div class="benefits-text">
+            <h3>24/7</h3>
+            <p>Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras
+              massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam
+              sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
           </div>
-          <input type="radio" name="tabs" id="tabfour">
-          <label for="tabfour"><img src="assets/benefits/Chat.svg" alt="chat">Community</label>
-          <div class="tab">
-            <div class="benefits-text">
-              <h3>Community</h3>
-              <p>Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
-            </div>
-            <img src="assets/illustration-benefits.jpg" alt="illustration">
+          <img src="assets/illustration-benefits.jpg" alt="illustration">
+        </div>
+        <input type="radio" name="tabs" id="tabfour">
+        <label for="tabfour"><img src="assets/benefits/Chat.svg" alt="chat">Community</label>
+        <div class="tab">
+          <div class="benefits-text">
+            <h3>Community</h3>
+            <p>Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras
+              massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam
+              sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</p>
           </div>
-        </div>
-    </div>
-  </div>
-  </div>
-  <div id="block5">
-    <div class="wrap">
-      <div class="events">
-        <div class="heading align-center">
-          <h3>Our Events</h3>
-          <h2>Lectures & workshops</h2>
-        </div>
-        <div class="events-content">
-
-        </div>
-        <div class="events-link">
-          <p>
-            Do you want more?
-          </p>
-          <button class="events-btn">Explore all events</button>
+          <img src="assets/illustration-benefits.jpg" alt="illustration">
         </div>
       </div>
+    </div>
+  </div>
+</div>
+<!--<div id="block5">-->
+<!--  <div class="wrap">-->
+<!--    <div class="events">-->
+<!--      <div class="heading align-center">-->
+<!--        <h3>Our Events</h3>-->
+<!--        <h2>Lectures & workshops</h2>-->
+<!--      </div>-->
+<!--      <div class="events-content">-->
 
+<!--      </div>-->
+<!--      <div class="events-link">-->
+<!--        <p>-->
+<!--          Do you want more?-->
+<!--        </p>-->
+<!--        <button class="events-btn">Explore all events</button>-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--  </div>-->
+<!--</div>-->
+<div id="block6">
+  <div class="wrap">
+    <div class="certificate">
+      <div class="certificate info">
+        <div class="heading">
+          <h3>Createx Certificate</h3>
+          <h2>Your expertise will be confirmed</h2>
+        </div>
+        <p>We are accredited by international professional organizations and institutes:</p>
+        <div class="logos">
+          <img alt="logo" src="assets/certificate/logo1.jpg">
+          <img alt="logo" src="assets/certificate/logo2.jpg">
+          <img alt="logo" src="assets/certificate/logo3.jpg">
+        </div>
+      </div>
+      <img src="../../assets/certificate/certificate.jpg">
     </div>
   </div>
-  <div id="block6">
-    <div class="wrap">
-       <div class="certificate">
-         <div class="certificate info">
-           <div class="heading">
-             <h3>Createx Certificate</h3>
-             <h2>Your expertise will be confirmed</h2>
-           </div>
-           <p>We are accredited by international professional organizations and institutes:</p>
-           <div class="logos">
-             <img alt="logo" src="assets/certificate/logo1.jpg">
-             <img alt="logo" src="assets/certificate/logo2.jpg">
-             <img alt="logo" src="assets/certificate/logo3.jpg">
-           </div>
-         </div>
-         <img src="../../assets/certificate/certificate.jpg">
-       </div>
-    </div>
-  </div>
+</div>
 <div id="block7">
   <div class="wrap">
     <div class="sliders">
@@ -179,6 +187,19 @@
           <h3>Best tutors are all here</h3>
           <h2>Meet our team</h2>
         </div>
+        <div class="author-card">
+          <ng-container *ngFor="let author of coursesMap; let i=index">
+            <div *ngIf="i<4" class="author-slider">
+              <div class="back-img">
+                <img src="{{author.img_author}}" alt="author">
+              </div>
+              <p class="author-name">{{author.author}}</p>
+              <p class="author-qualification">{{author.qualification}}</p>
+            </div>
+          </ng-container>
+
+
+        </div>
 
       </div>
       <div class="slider2">
@@ -186,20 +207,46 @@
           <h3>TESTIMONIALS</h3>
           <h2>What our students say</h2>
         </div>
+        <div class="review-box">
+          <button (click)="onClickPreviousButton() " class="prev-review"><img src="assets/review/Right.png"></button>
+          <div class="testimonial">
+            <div class="review-content">
+            <img src="assets/review/braces.png" alt="braces" class="braces">
+                <div class="review">
+                  <div class="review-text">
+                    <p> {{reviewsMap[currentIndex].text}}</p>
+                  </div>
+                  <div class="reviewer-box">
+                    <img src="{{reviewsMap[currentIndex].img}}">
+                    <div class="reviewer">
+                      <p class="reviewer-name">
+                        {{reviewsMap[currentIndex].name}}
+                      </p>
+                      <p class="reviewer-course">{{reviewsMap[currentIndex].course}}</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+          </div>
+          <button (click)="onClickNextButton()" class="next-review" ><img src="assets/review/Right.png"></button>
+        </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+
 <div id="block8">
   <div class="wrap">
-    <div class="head8">
-      <div class="heading">
-        <h3>Best tutors are all here</h3>
-        <h2>Meet our team</h2>
+    <div class="content-block-3">
+      <div class="heading align-center">
+        <h3>Don’t miss anything</h3>
+        <h2>Subscribe to the Createx School <br>announcements</h2>
       </div>
-      <button>Go to blog</button>
+      <div class="subscribe-content">
+        <input placeholder="Your working email" class="subscribe-input">
+        <button class="subscribe">Subscribe</button>
+      </div>
     </div>
-
   </div>
 </div>
-

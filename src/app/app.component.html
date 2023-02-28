@@ -17,3 +17,61 @@
   </div>
 </div>
 <router-outlet></router-outlet>
+<div id="footer">
+  <div class="wrap">
+    <div class="footer-container">
+    <div class="footer-info">
+      <img src="assets/logofooter.png" alt="logo">
+      <p>Createx Online School is a leader in online studying. We have lots of courses and programs from the main market experts. We provide relevant approaches to online learning, internships and employment in the largest companies in the country. </p>
+      <div></div>
+    </div>
+    <div class="footer-site-map">
+      <h4>SITE MAP</h4>
+      <ul>
+        <li routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/']" >Home</a></li>
+        <li routerLinkActive="active"> <a href="#">About us</a> </li>
+        <li routerLinkActive="active"><a href="#">Courses</a></li>
+        <li routerLinkActive="active"><a href="#">Blog</a></li>
+        <li routerLinkActive="active"> <a [routerLink]="['contact-form']" >Contacs</a></li>
+      </ul>
+    </div>
+    <div class="footer-courses">
+      <h4>COURSES</h4>
+      <ul>
+        <li><a href="#">Marketing</a></li>
+        <li><a href="#">Management</a></li>
+        <li><a href="#">HR & Recruting</a></li>
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Development</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>CONTACT US</h4>
+      <ul>
+        <li><a href="#"><mat-icon>settings_cell</mat-icon>   (405) 555-0128</a></li>
+        <li><a href="#"><mat-icon> contact_mail</mat-icon>  hello@createx.com</a></li>
+      </ul>
+    </div>
+    <div class="footer-subscribe">
+      <h4>SIGN UP TO OUR NEWSLETTER</h4>
+      <div class="footer-email-input">
+        <input type="text" class="footer-input" placeholder="Email address">
+        <button class="footer-input-button"><mat-icon>trending_flat</mat-icon></button>
+      </div>
+      <input class="footer-input">
+      <p>*Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.</p>
+    </div>
+    </div>
+
+  </div>
+<!--  <div class="footer-copyright">-->
+<!--    <div class="wrap">-->
+<!--      <div class="copyright-text">-->
+<!--        <p>© All rights reserved.Made by Createx Studio </p>-->
+<!--        <button>GO TO TOP</button>-->
+<!--      </div>-->
+
+<!--    </div>-->
+
+<!--  </div>-->
+</div>
