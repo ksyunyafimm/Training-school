@@ -6,7 +6,8 @@
           <h3>About us</h3>
           <h2>Createx Online School</h2>
         </div>
-        <p class="medium-bold-text">Createx Online School is a leader in online studying. We have lots<br> of courses and programs from the main market experts.</p>
+        <p class="medium-bold-text">Createx Online School is a leader in online studying. We have lots<br> of courses
+          and programs from the main market experts.</p>
         <p class="normal-text">We provide relevant approaches to online learning, internships and employment in the <br>
           largest companies in the country. Our educational programs help you get a new <br>
           specialty from scratch. During your studies, we will help you find a job. Check the <br>
@@ -69,19 +70,19 @@
 
         </div>
         <div class="icon-boxes">
-            <img alt="icon" src="assets/about-page/icon-boxes/ic-target.png">
-            <p class="medium-bold-text">
-              Efficiency
-            </p>
-            <p class="normal-text">Viverra scelerisque consequat net.<br> Adipisicing esse consequat. </p>
-          </div>
-            <div class="icon-boxes">
-              <img alt="icon" src="assets/about-page/icon-boxes/ic-calendar.png">
-              <p class="medium-bold-text">
-                Flexible Shedule
-              </p>
-              <p class="normal-text">Aute eiusmod dolore dolore deserunt veniam ad deserunt. </p>
-            </div>
+          <img alt="icon" src="assets/about-page/icon-boxes/ic-target.png">
+          <p class="medium-bold-text">
+            Efficiency
+          </p>
+          <p class="normal-text">Viverra scelerisque consequat net.<br> Adipisicing esse consequat. </p>
+        </div>
+        <div class="icon-boxes">
+          <img alt="icon" src="assets/about-page/icon-boxes/ic-calendar.png">
+          <p class="medium-bold-text">
+            Flexible Shedule
+          </p>
+          <p class="normal-text">Aute eiusmod dolore dolore deserunt veniam ad deserunt. </p>
+        </div>
       </div>
     </div>
     <div class="directions-courses">
@@ -89,15 +90,75 @@
         <h3>our main directions</h3>
         <h2>What do we teach</h2>
       </div>
-      <div>
-        <ng-container>
+      <div class="directions__info">
+        <ng-container *ngFor="let info of coursesPreview">
           <div>
-            <img>
-            <p></p>
-            <button></button>
+            <img alt="course" src="{{info.img_course}}" class="directions__info_img">
+            <p
+              [ngClass]="{green: info.type === 'Marketing', blue: info.type === 'Management', orange: info.type === 'HR & Recruiting', purple: info.type === 'Design' }"> {{info.type}} </p>
+            <p class="directions__info_text">{{info.course_info}}</p>
+            <button class="directions__info_button">Check courses<img src="assets/about-page/arrowRight.svg"></button>
           </div>
         </ng-container>
       </div>
     </div>
+    <div class="styding-process">
+      <div class="heading">
+        <h3>Studying process</h3>
+        <h2>That’s how we do it</h2>
+      </div>
+      <div class="styding-process__content">
+        <div class="styding-process__content__info">
+          <div class="styding-process__content__text">
+            <p class="text_step">STEP 1</p>
+            <p class="text_title">Watching online video lectures</p>
+            <p class="text_content">Aliquam turpis viverra quam sit interdum blandit posuere pellentesque. Nisl,
+              imperdiet gravida massa neque.</p>
+          </div>
+          <div class="styding-process__content__text">
+            <p class="text_step">STEP 2</p>
+            <p class="text_title">Passing test</p>
+            <p class="text_content">Facilisis pellentesque quis accumsan ultricies. Eu egestas eget feugiat lacus, amet,
+              sollicitudin egestas laoreet etiam. </p>
+          </div>
+          <div class="styding-process__content__text">
+            <p class="text_step">STEP 3</p>
+            <p class="text_title">Curator’s feedback</p>
+            <p class="text_content">Eget amet, enim pharetra leo egestas nisi, odio imperdiet facilisis. Aliquet orci
+              varius volutpat egestas facilisi lobortis. </p>
+          </div>
+          <div class="styding-process__content__text">
+            <p class="text_step">STEP 4</p>
+            <p class="text_title">Corrections if needed</p>
+            <p class="text_content">Non tempor pulvinar tincidunt aliquam. Placerat ultricies malesuada dui auctor.</p>
+          </div>
+        </div>
+        <div class="styding-process__content__img">
+          <img alt="illustration" src="assets/about-page/illustrationStydingProcess.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="block3">
+  <div class="wrap">
+    <div class="our-team">
+      <div class="heading align-center">
+        <h3>Best tutors are all here</h3>
+        <h2>What do we teach</h2>
+      </div>
+      <div class="our-team__repeater">
+        <ng-container *ngFor="let team of teamMap">
+          <div class="our-team__repeater__block">
+            <div class="our-team__repeater__block_img">
+              <img alt="teacher" src="{{team.img_author}}">
+            </div>
+            <p>{{team.author}}</p>
+            <p>{{team.qualification}}</p>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+
   </div>
 </div>

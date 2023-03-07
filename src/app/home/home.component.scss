@@ -1,6 +1,6 @@
 
 $assetPath: '~src/assets/';
-$logo-img: '#{$assetPath}background.jpg';
+$logo-img: '#{$assetPath}background-home.jpg';
 $check-img: '#{$assetPath}check.svg';
 $block2: '#{$assetPath}background-block2.jpg';
 $block5: '#{$assetPath}backgroundEvents.jpg';
@@ -209,30 +209,6 @@ $block7: '#{$assetPath}Backgroundblock7.jpg';
     color: #FF4242;
 
   }
-}
-.green{
-  background: hsla(168, 97%, 41%, 1);
-  width: 75px;
-  text-align: center;
-  color: white;
-}
-.blue{
-  background: hsla(223, 96%, 67%, 1);
-  width: 95px;
-  text-align: center;
-  color: white;
-}
-.orange{
-  background: hsla(32, 94%, 56%, 1);
-  width: 115px;
-  text-align: center;
-  color: white;
-}
-.purple{
-  background: hsla(341, 91%, 57%, 1);
-  width: 60px;
-  text-align: center;
-  color: white;
 }
 #block4{
   width: 100%;

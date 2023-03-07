@@ -7,7 +7,7 @@
     "price": "$100",
     "author": "Jerome Bell",
     "img": "assets/courses/image1.jpg",
-    "img_course": "assets/courses/about-page/courses/marketing.jpg",
+    "img_course": "assets/about-page/courses/marketing.jpg",
     "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
 
   },
@@ -20,7 +20,7 @@
       "qualification": "Founder and CEO",
       "img": "assets/courses/image2.jpg",
       "img_author": "assets/team/marvin.png",
-      "img_course": "assets/courses/about-page/courses/hr.jpg",
+      "img_course": "assets/about-page/courses/hr.jpg",
       "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
     },
     {
@@ -32,7 +32,7 @@
       "qualification": "Founder and CEO",
       "img": "assets/courses/image3.jpg",
       "img_author": "assets/team/dianne.png",
-      "img_course": "assets/courses/about-page/courses/managment.jpg",
+      "img_course": "assets/about-page/courses/managment.jpg",
       "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
     },
     {
@@ -42,7 +42,7 @@
       "price": "$480",
       "author": "Marvin McKinney",
       "img": "assets/courses/image4.jpg",
-      "img_course": "assets/courses/about-page/courses/managment.jpg",
+      "img_course": "assets/about-page/courses/managment.jpg",
       "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
     },
     {
@@ -52,7 +52,7 @@
       "price": "$530",
       "author": "Kristin Watson",
       "img": "assets/courses/image5.jpg",
-      "img_course": "assets/courses/about-page/courses/development.jpg",
+      "img_course": "assets/about-page/courses/development.jpg",
       "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
     },
     {
@@ -62,7 +62,7 @@
       "price": "$500",
       "author": "Guy Hawkins",
       "img": "assets/courses/image6.jpg",
-      "img_course": "assets/courses/about-page/courses/design.jpg",
+      "img_course": "assets/about-page/courses/design.jpg",
       "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
     }
 ],

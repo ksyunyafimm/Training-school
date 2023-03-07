@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="497dfd1e-ddad-4ff5-a073-b61490ba8171" name="Changes" comment="new project form">
-      <change afterPath="$PROJECT_DIR$/src/assets/about-page/courses/design.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/about-page/courses/development.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/about-page/courses/hr.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/about-page/courses/managment.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/about-page/courses/marketing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/about-page/arrowRight.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/about-page/illustrationStydingProcess.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/about/about.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/about.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/about.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/servises/courseshttp.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/servises/courseshttp.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/about-page/Background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/about-page/Background-about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/background-home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/LearnUp/Angular/Выпускной проект/videopage&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Учимся снова/magazine/Training-school&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Учимся снова\\magazine\\Training-school\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -44,9 +47,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Учимся снова\magazine\Training-school\src\assets\about-page" />
       <recent name="C:\Учимся снова\magazine\Training-school\src\assets\about-page\courses" />
       <recent name="C:\Учимся снова\magazine\Training-school\src\assets\about-page\icon-boxes" />
-      <recent name="C:\Учимся снова\magazine\Training-school\src\assets\about-page" />
       <recent name="C:\Учимся снова\magazine\Training-school\src\assets\team" />
       <recent name="C:\Учимся снова\magazine\Training-school\src\assets" />
     </key>
@@ -109,7 +112,13 @@
       <workItem from="1677179323558" duration="4347000" />
       <workItem from="1677512917903" duration="628000" />
       <workItem from="1677514978305" duration="4132000" />
-      <workItem from="1677592755697" duration="14116000" />
+      <workItem from="1677592755697" duration="14568000" />
+      <workItem from="1677774206910" duration="1253000" />
+      <workItem from="1678195929413" duration="196000" />
+      <workItem from="1678196137456" duration="89000" />
+      <workItem from="1678196235644" duration="15000" />
+      <workItem from="1678196280574" duration="260000" />
+      <workItem from="1678196544627" duration="7838000" />
     </task>
     <servers />
   </component>
