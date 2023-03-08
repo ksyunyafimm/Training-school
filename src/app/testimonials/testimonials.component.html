@@ -1,0 +1,30 @@
+<div class="slider2">
+  <div class="heading align-center">
+    <h3>TESTIMONIALS</h3>
+    <h2>What our students say</h2>
+  </div>
+  <div class="review-box">
+    <button (click)="onClickPreviousButton() " class="prev-review"><img src="assets/review/Right.png"></button>
+    <div class="testimonial">
+      <div class="review-content">
+        <img src="assets/review/braces.png" alt="braces" class="braces">
+        <div class="review">
+          <div class="review-text">
+            <p> {{reviewsMap[currentIndex].text}}</p>
+          </div>
+          <div class="reviewer-box">
+            <img src="{{reviewsMap[currentIndex].img}}">
+            <div class="reviewer">
+              <p class="reviewer-name">
+                {{reviewsMap[currentIndex].name}}
+              </p>
+              <p class="reviewer-course">{{reviewsMap[currentIndex].course}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <button (click)="onClickNextButton()" class="next-review" ><img src="assets/review/Right.png"></button>
+  </div>
+</div>

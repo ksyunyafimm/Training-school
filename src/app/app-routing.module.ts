@@ -8,6 +8,7 @@ import {SignUpComponent} from "./sign-up/sign-up.component";
 import {AuthGuard} from "./guards/auth.guard";
 import {HomeComponent} from "./home/home.component";
 import {AboutComponent} from "./about/about.component";
+import {TestimonialsComponent} from "./testimonials/testimonials.component";
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
