@@ -15,6 +15,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from "@angular/material/icon";
 import { AboutComponent } from './about/about.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { CertificateComponent } from './certificate/certificate.component';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     SignUpComponent,
     HomeComponent,
     AboutComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    CertificateComponent,
+    CoursesComponent
   ],
     imports: [
         BrowserModule,
