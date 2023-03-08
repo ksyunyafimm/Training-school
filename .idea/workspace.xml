@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="497dfd1e-ddad-4ff5-a073-b61490ba8171" name="Changes" comment="new project form">
+      <change afterPath="$PROJECT_DIR$/src/assets/courses/CodyFisher.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/courses/CoursesBack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/courses/KathrynMurphy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/courses/brooklynSimmons.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/about.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/about.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/courses/courses.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/courses/courses.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/courses/courses.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/courses/courses.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/servises/courseshttp.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/servises/courseshttp.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +47,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Учимся снова\magazine\Training-school\src\assets\courses" />
       <recent name="C:\Учимся снова\magazine\Training-school\src\assets\about-page" />
       <recent name="C:\Учимся снова\magazine\Training-school\src\assets\about-page\courses" />
       <recent name="C:\Учимся снова\magazine\Training-school\src\assets\about-page\icon-boxes" />
       <recent name="C:\Учимся снова\magazine\Training-school\src\assets\team" />
-      <recent name="C:\Учимся снова\magazine\Training-school\src\assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start-fake-db">
@@ -111,7 +118,7 @@
       <workItem from="1678196137456" duration="89000" />
       <workItem from="1678196235644" duration="15000" />
       <workItem from="1678196280574" duration="260000" />
-      <workItem from="1678196544627" duration="11803000" />
+      <workItem from="1678196544627" duration="15428000" />
     </task>
     <servers />
   </component>

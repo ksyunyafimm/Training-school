@@ -9,10 +9,12 @@ import {AuthGuard} from "./guards/auth.guard";
 import {HomeComponent} from "./home/home.component";
 import {AboutComponent} from "./about/about.component";
 import {TestimonialsComponent} from "./testimonials/testimonials.component";
+import {CoursesComponent} from "./courses/courses.component";
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
   {path: 'about-us', component:AboutComponent},
+  {path: 'courses', component: CoursesComponent},
   {path: 'contact-form', component: ContactFormComponent,
   canActivate:[AuthGuard],
   canDeactivate:[AuthGuard]},

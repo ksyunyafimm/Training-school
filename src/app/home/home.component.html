@@ -3,7 +3,7 @@
     <div>
       <button class="play-btn"><img src="assets/hover.svg" alt="play"> Play showreel</button>
       <h1>Enjoy studying <br> with Createx <br> Online Courses</h1>
-      <button class="about-us-btn">About us</button>
+      <button class="about-us-btn" [routerLink]="['about-us']">About us</button>
       <button class="explore-btn">Explore courses</button>
     </div>
 
@@ -51,7 +51,7 @@
           <li>Tincidunt sagittis neque sem ac eget.</li>
           <li>Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</li>
         </ul>
-        <button class="checklist-btn">More about us</button>
+        <button class="checklist-btn" [routerLink]="['about-us']">More about us</button>
       </div>
     </div>
   </div>
@@ -63,11 +63,11 @@
         <h3>Ready to learn?</h3>
         <h2>Featured Courses</h2>
       </div>
-      <button class="course-btn">View all courses</button>
+      <button class="course-btn" [routerLink]="['courses']">View all courses</button>
     </div>
     <div class="courses-block">
-      <ng-container *ngFor="let course of coursesMap">
-        <div class="courses-container">
+      <ng-container *ngFor="let course of coursesMap; let i=index">
+        <div *ngIf="i<6" class="courses-container">
           <img src="{{course.img}}" alt="author">
           <div class="course-info">
             <p
@@ -85,11 +85,11 @@
 </div>
 <div id="block4">
   <div class="wrap">
+    <div class="heading align-center">
+              <h3>Our benefits</h3>
+              <h2>That’s how we do it</h2>
+            </div>
     <div class="benefits">
-      <div class="heading align-center">
-        <h3>Our benefits</h3>
-        <h2>That’s how we do it</h2>
-      </div>
       <div class="tabs">
         <input type="radio" name="tabs" id="tabone" checked="checked">
         <label for="tabone"><img src="assets/benefits/Star.svg" alt="star">Experienced Tutors</label>

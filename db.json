@@ -64,8 +64,32 @@
       "img": "assets/courses/image6.jpg",
       "img_course": "assets/about-page/courses/design.jpg",
       "course_info": "Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra scelerisque consequat."
+    },
+    {
+      "id" : 7,
+      "type": "Development",
+      "name": "Highload Software Architecture",
+      "price": "$600",
+      "author": "Brooklyn Simmons",
+      "img": "assets/courses/brooklynSimmons.png"
+    },
+    {
+      "id" : 8,
+      "type": "HR & Recruting",
+      "name": "Human Resources – Selection and Recruitment",
+      "price": "$150",
+      "author": "Kathryn Murphy",
+      "img": "assets/courses/KathrynMurphy.jpg"
+    },
+    {
+      "id" : 9,
+      "type": "Design",
+      "name": "User Experience. Human-centered Design",
+      "price": "$240",
+      "author": "Cody Fisher",
+      "img": "assets/courses/CodyFisher.jpg"
     }
-],
+  ],
   "reviews": [
     {
       "id": 1,

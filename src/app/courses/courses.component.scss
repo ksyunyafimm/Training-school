@@ -1,0 +1,11 @@
+$assetPath: '~src/assets/courses/';
+$block1: '#{$assetPath}CoursesBack.png';
+@mixin backOne {
+  background-image: url(#{$block1});
+}
+#courses{
+  @include backOne;
+  width: 100%;
+  height: 1800px;
+  padding-top: 100px;
+}

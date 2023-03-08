@@ -8,8 +8,8 @@ import {Observable} from "rxjs";
    price: string,
    author: string,
    img: string,
-   img_course: string,
-   course_info: string
+   img_course?: string,
+   course_info?: string
 
  }
 @Injectable({
